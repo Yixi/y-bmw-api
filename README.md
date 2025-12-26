@@ -6,10 +6,16 @@
 
 该服务容器导出端口为 **8080**。
 
+### 获取镜像
+
+```bash
+docker pull ghcr.io/yixi/y-bmw-api:sha-b7d8b70
+```
+
 ### 启动示例
 
 ```bash
-docker run -d -p 8080:8080 <your-image-name>
+docker run -d -p 8080:8080 ghcr.io/yixi/y-bmw-api:sha-b7d8b70
 ```
 
 ## API 接口文档
